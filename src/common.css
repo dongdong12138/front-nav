@@ -1,0 +1,26 @@
+/* 绝对居中 */
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 水平居中 */
+.flex_center_h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 垂直居中 */
+.flex_center_v {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+ }
